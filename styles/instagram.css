@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  /* justify-content: center; */
+}
+
+.main {
+  height: 80%;
+}
+
+.login {
+  border: 1px solid green;
+  height: 500px;
+  width: 450px;
+}
+
+.instagram {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+input {
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 0px;
+  height: 35px;
+  /* margin-top: 20px; */
+}
+
+.chkdiv {
+  height: 12px;
+}
+.chkbox {
+  height: 12px;
+  width: 14%;
+  margin-left: 0px !important;
+  padding-left: 0%;
+}
+.check {
+  /* padding-left: 0px; */
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  padding-left: 0px;
+  width: 30%;
+}
+button {
+  width: 80%;
+}
+.hr {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+}

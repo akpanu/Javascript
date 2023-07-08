@@ -1,0 +1,11 @@
+required
+value
+id
+class
+placeholder
+
+
+Assignment:
+1. Login Page for Instagram
+2. Registration Page of your choice
+3. design a weeding invitation card using html & css

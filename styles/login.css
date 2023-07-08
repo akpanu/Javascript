@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 20px;
+  margin: 100px auto;
+  background-color: transparent;
+  box-shadow: 2px 2px 5px blueviolet, -2px -2pc 5pc greenyellow;
+}
