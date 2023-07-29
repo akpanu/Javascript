@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/goal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Goal</title>
+  </head>
+  <body>
+    <nav class="navbar" id="mynavbar">
+      <!-- <li><img src="images/goal.svg" alt="" width="120%" /></li>
+        <li><a href="#">Live Scores</a></li>
+        <li><a href="#">Latest News</a></li>
+        <li><a href="#">Transfers</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Premier League</a></li>
+        <li><a href="#">La Liga</a></li>
+        <li><a href="#">Serie A</a></li>
+        <li><a href="#">GOALSTUDIO</a></li>
+        <li><a href="#">Nigeria</a></li>
+        <li><a href="#">More</a></li> -->
+      <!-- <img src="images/goal.svg" alt="" width="120%" /> -->
+      <img src="images/goal.svg" alt="" width="5%" />
+      <a href="#">Live Scores</a>
+      <a href="#">Latest News</a>
+      <a href="#">Transfers</a>
+      <a href="#">Culture</a>
+      <a href="#">Premier League</a>
+      <a href="#">La Liga</a>
+      <a href="#">Serie A</a>
+      <a href="#">GOALSTUDIO</a>
+      <a href="#">Nigeria</a>
+      <a href="#">More</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+
+    <div class="main">
+      <div class="top_stories">Top Stories</div>
+      <div class="main_section">
+        <div class="section--A">
+          <div class="section--A1">
+            <img
+              src="images/Zambia_vs_Japan.jpg"
+              alt=""
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div class="section--A2"></div>
+        </div>
+        <div class="section--B">
+          <div class="section--B1">
+            <img src="images/jermaine.jpg" width="100%" height="100%" alt="" />
+          </div>
+          <div class="section--B2">
+            <div class="analysis-div">
+              <button class="analysis-btn">Analysis</button>
+            </div>
+            <div class="analysis-desc">
+              <!-- <p>Hergerberg, Graham Hansen & Norway's World Cup Crisis</p> -->
+              Hergerberg, Graham Hansen & Norway's World Cup Crisis
+            </div>
+            <div class="analysis-time">
+              <span><i class="fa-brands fa-facebook-f"></i></span>
+              27m
+            </div>
+          </div>
+          <div class="section--B3"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById('mynavbar')
+        if (x.className === 'navbar') {
+          x.className += ' responsive'
+        } else {
+          x.className = 'navbar'
+        }
+      }
+    </script>
+  </body>
+</html>

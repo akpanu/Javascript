@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.certificates {
+  display: flex;
+  flex-direction: row;
+  list-style-type: upper-roman;
+  justify-content: space-evenly;
+}
+.navbar {
+  width: 50%;
+  background-color: rgb(176, 176, 168);
+  border: 1px solid orangered;
+  padding: 5px 0;
+  /* line-height: 3px; */
+  height: 70px;
+  color: white;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}

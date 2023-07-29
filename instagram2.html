@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/instagram_title_logo.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/instagram2.css" />
+    <title>Instagram | Social home</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="images/instagram_PNG10.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Uwem"
+          data-version-number="1.00"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Home</a>
+            <!-- section--1 -->
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Login</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Create account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <div>
+          <img src="images/instagram_phone2.png.jpg" width="90%" alt="" />
+        </div>
+        <div class="login">
+          <!-- <div class="instagramtext">Instgram</div> -->
+          <img src="images/instagramtext2.png" width="35%" alt="" />
+          <input
+            type="text"
+            placeholder="Phone Number, Email address or phone number"
+          />
+          <input type="text" placeholder="Password" />
+          <div class="check_div">
+            <div class="cbox_div">
+              <input class="cbox" type="checkbox" id="checkbox_id" />
+            </div>
+
+            <div class="test">
+              <label for="checkbox_id">Save login info</label>
+            </div>
+          </div>
+
+          <button>Log in</button>
+          <div>Login with facebook</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Bankist was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="images/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        Designed by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/jonasschmedtman"
+          >Uwem Akpan</a
+        >. Website Developer, Database Specialist, Project Manager, Application
+        Support.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Register for free Instagram <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <label>Phone Number</label>
+        <input type="text" />
+        <label>Country</label>
+        <input type="text" list="country" />
+        <label>Passord</label>
+        <input type="password" />
+        <label>Confirm Passord</label>
+        <input type="password" />
+        <button class="btn">Register &rarr;</button>
+      </form>
+    </div>
+    <datalist id="country">
+      <option value="Nigeria"></option>
+      <option value="Ghana"></option>
+      <option value="USA"></option>
+      <option value="Canada"></option>
+      <option value="Brazil"></option>
+      <option value="Russia"></option>
+      <option value="Mexico"></option>
+      <option value="Algeria"></option>
+    </datalist>
+
+    <div class="overlay hidden"></div>
+
+    <script src="scripts/instagram.js"></script>
+    <!-- <script src="script2.js"></script> -->
+  </body>
+</html>

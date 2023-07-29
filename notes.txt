@@ -9,3 +9,8 @@ Assignment:
 1. Login Page for Instagram
 2. Registration Page of your choice
 3. design a weeding invitation card using html & css
+4. Responsive Goal.com
+5. Complete table of Livescore.com
+6. Project
+
+

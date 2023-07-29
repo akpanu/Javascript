@@ -10,9 +10,10 @@ body {
 }
 
 .login {
-  border: 1px solid green;
+  border: 2px solid green;
   height: 500px;
   width: 450px;
+  border-radius: 15px;
 }
 
 .instagram {
@@ -27,7 +28,10 @@ input {
   width: 80%;
   margin-top: 5px;
   margin-left: 0px;
-  height: 35px;
+  height: 40px;
+  border: 2px solid lightblue;
+  border-radius: 15px;
+  padding: 10px;
   /* margin-top: 20px; */
 }
 
@@ -56,3 +60,11 @@ button {
   margin-top: 5%;
   margin-left: 10%;
 }
+
+::placeholder {
+  color: burlywood;
+}
+
+/* .phone {
+  margin-top: 5%;
+} */
